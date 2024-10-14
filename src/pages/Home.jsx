@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeCom from '../components/Home/Homecom'
 
 function Home() {
   return (
     <div>
-      home
+      <HomeCom/>
     </div>
   )
 }

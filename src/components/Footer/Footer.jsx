@@ -6,6 +6,7 @@ function Footer() {
        Fatiiiiiiiiiii
        kak delaaa
        
+   
         </div>
 
 
