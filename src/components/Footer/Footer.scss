@@ -1,0 +1,136 @@
+.new-footer{
+    margin: 0 auto;
+    width: 1438px;
+    height: 470px;
+    background: rgb(241, 242, 246);
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        .footer1{
+                margin-top: 40px;
+              
+                .logo{
+                    
+                    img{
+                        width: 190px;
+                        height: 51.83px;
+                    }
+                }
+                p{
+                    margin-top: 40px;
+                    color: rgb(111, 118, 130);
+                    font-family: PT Sans;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .logo-img{
+                    margin-top: 10px;
+                    display: flex;
+                    gap: 10px;
+                    img{
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+                .visa{
+                    display: flex;
+                    gap: 15px;
+                    img{
+                        margin-top: 10px;
+
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+    
+    
+            }
+            .footer2{
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                margin-top: 40px;
+                h1{
+       
+    /* T1_14_Bold/768 */
+    color: rgb(21, 36, 79);
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+                    
+    
+    
+                }
+                p{
+                    color: rgb(111, 118, 130);
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+                }
+                .coot{
+                    display: flex;
+                    gap: 11px;
+                }
+            }
+    }
+    .podpis{
+        margin-left: 800px;
+        .podpis2{
+            display: flex;
+            gap: 24px;
+            input{
+                /* T5_12 */
+    color: rgb(111, 118, 130);
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 380px;
+    height: 40px;
+    border: none;
+    
+            }
+            button{
+                width: 139px;
+                height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: rgb(72, 131, 209);
+    border: none;
+                
+            }
+
+        }
+  
+        p{
+            margin-top: 10px;
+            width: 350px;
+            height: 27px;
+            color: rgb(111, 118, 130);
+            font-family: Roboto;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+
+}

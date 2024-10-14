@@ -7,7 +7,6 @@ import Payment from "./pages/Payment"
 import Delivery from "./pages/Delivery";
 import Contact from "./pages/Contact";
 
-
 export const myRouter = createBrowserRouter([
     {
         path:"/",

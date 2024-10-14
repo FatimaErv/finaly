@@ -1,0 +1,57 @@
+.axes {
+    .axes-top{
+        position: relative;
+        .axes-flex{
+            display: flex;
+            gap: 1002px;
+            margin: 103px 55px;
+          
+           
+            h3{
+               
+                color: rgb(21, 36, 79);
+                font-family: DIN Pro;
+                font-size: 35px;
+                font-weight: 700;
+                line-height: 44px;
+                letter-spacing: 0%;
+                text-align: left;
+
+            }
+            h5{
+                /* /T3_16_Bold */
+                color: rgb(71, 152, 222);
+                font-family: PT Sans;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: left;
+
+            }
+        }
+        h1{
+            position: absolute;
+            top: -49px;
+            left: 155px;
+            color: rgb(241, 242, 246);
+            font-family: PT Sans;
+            font-size: 110px;
+            font-weight: 700;
+            line-height: 142px;
+            letter-spacing: 0%;
+            text-align: left;
+
+        }
+    }
+    .axesuar{
+        display: flex;
+        justify-content: space-around;
+        .axesuar-product{
+            img{
+                width: 410px;
+                height: 209px;
+            }
+        }
+    }
+}

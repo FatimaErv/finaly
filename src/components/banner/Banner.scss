@@ -1,0 +1,54 @@
+.new-both{
+    position: relative;
+
+   
+        img{
+            width: 1410px;
+    height: 600px;
+    object-fit: cover;
+        }
+        .new-both2{
+            padding: 181px 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 405px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.75);
+         h3{
+            font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+            color:  rgb(111, 118, 130);
+            text-align: left;
+         }
+         h4{
+            color: rgb(108, 219, 126);
+            font-family: PT Sans;
+            font-size: 45px;
+            font-weight: 700;
+           
+    
+         }
+         button{
+            width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(71, 152, 222);
+    border-radius: 5px;
+    
+    /* Blue */
+    background: rgb(71, 152, 222);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+         }
+    
+        }
+
+    
+   
+}
