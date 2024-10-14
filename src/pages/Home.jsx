@@ -6,10 +6,10 @@ import Axesuar from '../components/axes/Axesuar'
 function Home() {
   return (
     <div>
-      <HomeCom/>
-      
       <Banner/>
       <Axesuar/>
+      <HomeCom/>
+      
 
 
     </div>
