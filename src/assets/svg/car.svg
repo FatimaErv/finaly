@@ -1,0 +1,17 @@
+<svg width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_4543">
+			<rect id="car 1" rx="-0.500000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="car 1" rx="-0.500000" width="79.000000" height="79.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5_4543)">
+		<path id="Vector" d="M20 56.66L20 63.33L16.66 63.33L16.66 56.66L16.66 36.66L23.33 16.66L56.66 16.66L63.33 36.66L63.33 56.66L63.33 63.33L60 63.33L60 56.66M63.33 36.66L16.66 36.66M16.66 36.66L63.33 36.66M16.66 56.66L16.66 36.66M63.33 56.66L63.33 36.66M63.33 56.66L60 56.66L20 56.66L16.66 56.66M16.66 56.66L20 56.66M63.33 56.66L60 56.66" stroke="#4798DE" stroke-opacity="1.000000" stroke-width="3.000000"/>
+		<path id="Vector" d="M26.66 50C24.82 50 23.33 48.5 23.33 46.66C23.33 44.82 24.82 43.33 26.66 43.33C28.5 43.33 30 44.82 30 46.66C30 48.5 28.5 50 26.66 50Z" stroke="#4798DE" stroke-opacity="1.000000" stroke-width="3.000000"/>
+		<path id="Vector" d="M53.33 50C51.49 50 50 48.5 50 46.66C50 44.82 51.49 43.33 53.33 43.33C55.17 43.33 56.66 44.82 56.66 46.66C56.66 48.5 55.17 50 53.33 50Z" stroke="#4798DE" stroke-opacity="1.000000" stroke-width="3.000000"/>
+	</g>
+</svg>
+
