@@ -1,119 +1,119 @@
-.products{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-margin-bottom: 30px;
-margin-top: 30px;
-
-
-
-     .product{
-       width: 300px;
-       height: 438px;
-       margin-top: 20px;
-       
-      
-
-       &:hover{
-         cursor: pointer;
-         box-shadow: 1px 2px 4px 0px black;
+.products{ 
+  display: grid; 
+  grid-template-columns: repeat(4,1fr); 
+  margin-bottom: 30px; 
+  margin-top: 30px; 
+   
+   
+   
+       .product{ 
+         width: 300px; 
+         height: 438px; 
+         margin-top: 20px; 
+          
          
-       }
-
-          img{
-            width: 90%;
-            height: 216px;
-           margin-left: 14px;
-          }
-
-          .product-content{
-            padding: 9px 30px 20px 30px;
-
-            h5{
-                 margin-bottom: 9px;
-                 color: rgb(111, 118, 130);
-                 list-style: none;
-                font-family: PT Sans;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 18px;
-                letter-spacing: 0%;
-                text-align: left;
-            }
-            h6{
-              color: rgb(111, 118, 130);
-                list-style: none;
-                font-family: PT Sans;
-                font-size: 13px;
-                font-weight: 400;
-                line-height: 18px;
-                letter-spacing: 0%;
-                text-align: left;
-              
-            }
-            p{
-                color: rgb(71, 152, 222);
-                font-family: PT Sans;
-                font-size: 13px;
-                font-weight: 400;
-                line-height: 17px;
-                letter-spacing: 0%;
-                text-align: left;
-                margin-top: 9px;
-               
-            }
-            h4{
-                color: rgb(21, 36, 79);
-                font-family: PT Sans;
-                font-size: 22px;
-                font-weight: 700;
-                line-height: 28px;
-                letter-spacing: 0%;
-                text-align: left;
-                margin-top: 18px;
-                margin-bottom:19px;
-            }
-
-            .shop{
-              display: flex;
-
-              gap: 37px;
-
+   
+         &:hover{ 
+           cursor: pointer; 
+           box-shadow: 1px 2px 4px 0px black; 
             
-            button{
-                width: 140px;
-                height: 40px;
-                border-radius: 5px;
-                background-color: rgb(71, 152, 222);
-                border-style: none;
-                color: rgb(255, 255, 255);
-                font-family: PT Sans;
-                font-size: 16px;
-                font-weight: 700;
-                line-height: 21px;
-                letter-spacing: 0%;
-                text-align: center;
-
-                &:hover{
-                  box-shadow: 1px 2px 2px 1px black;
-                }
-            }
-
-            .icons{
-              display: flex;
-              align-items: center;
-
-
-              .img1{
-                width: 25px;
-                height: 25px;
-              }
-              .img2{
-                width: 30px;
-                height: 30px;
-              }
-            }
-          }
-
-          }
-     }
-}
+         } 
+   
+            img{ 
+              width: 90%; 
+              height: 216px; 
+             margin-left: 14px; 
+            } 
+   
+            .product-content{ 
+              padding: 9px 30px 20px 30px; 
+   
+              h5{ 
+                   margin-bottom: 9px; 
+                   color: rgb(111, 118, 130); 
+                   list-style: none; 
+                  font-family: PT Sans; 
+                  font-size: 14px; 
+                  font-weight: 400; 
+                  line-height: 18px; 
+                  letter-spacing: 0%; 
+                  text-align: left; 
+              } 
+              h6{ 
+                color: rgb(111, 118, 130); 
+                  list-style: none; 
+                  font-family: PT Sans; 
+                  font-size: 13px; 
+                  font-weight: 400; 
+                  line-height: 18px; 
+                  letter-spacing: 0%; 
+                  text-align: left; 
+                 
+              } 
+              p{ 
+                  color: rgb(71, 152, 222); 
+                  font-family: PT Sans; 
+                  font-size: 13px; 
+                  font-weight: 400; 
+                  line-height: 17px; 
+                  letter-spacing: 0%; 
+                  text-align: left; 
+                  margin-top: 9px; 
+                  
+              } 
+              h4{ 
+                  color: rgb(21, 36, 79); 
+                  font-family: PT Sans; 
+                  font-size: 22px; 
+                  font-weight: 700; 
+                  line-height: 28px; 
+                  letter-spacing: 0%; 
+                  text-align: left; 
+                  margin-top: 18px; 
+                  margin-bottom:19px; 
+              } 
+   
+              .shop{ 
+                display: flex; 
+   
+                gap: 37px; 
+   
+               
+              button{ 
+                  width: 140px; 
+                  height: 40px; 
+                  border-radius: 5px; 
+                  background-color: rgb(71, 152, 222); 
+                  border-style: none; 
+                  color: rgb(255, 255, 255); 
+                  font-family: PT Sans; 
+                  font-size: 16px; 
+                  font-weight: 700; 
+                  line-height: 21px; 
+                  letter-spacing: 0%; 
+                  text-align: center; 
+   
+                  &:hover{ 
+                    box-shadow: 1px 2px 2px 1px black; 
+                  } 
+              } 
+   
+              .icons{ 
+                display: flex; 
+                align-items: center; 
+   
+   
+                .img1{ 
+                  width: 25px; 
+                  height: 25px; 
+                } 
+                .img2{ 
+                  width: 30px; 
+                  height: 30px; 
+                } 
+              } 
+            } 
+   
+            } 
+       } 
+  }

@@ -8,6 +8,10 @@ import Delivery from "./pages/Delivery";
 import Contact from "./pages/Contact";
 import DetailProduct from "./pages/DetailProduct";
 import Wishlist from "./pages/Wishlist";
+import Register from './pages/Register'
+import Login from "./pages/Login";
+import Cart from "./pages/Cart";
+import ChekOut from "./pages/ChekOut";
 
 export const myRouter = createBrowserRouter([
     {
@@ -45,7 +49,23 @@ export const myRouter = createBrowserRouter([
             {
                 path:"Wishlist",
                 element:<Wishlist/>
-            }
+            },
+            {
+                path:"register",
+                element:<Register/>
+            },
+            {
+                path:"login",
+                element:<Login/>
+            },
+            {
+                path:"cart",
+                element:<Cart/>
+            },
+            {
+                path:"check-out",
+                element:<ChekOut/>
+            },
         
         ],
     }
