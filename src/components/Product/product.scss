@@ -5,8 +5,7 @@ margin-bottom: 30px;
 margin-top: 30px;
 
 
-
-     .product{
+      .product{
        width: 300px;
        height: 438px;
        margin-top: 20px;
@@ -27,6 +26,9 @@ margin-top: 30px;
 
           .product-content{
             padding: 9px 30px 20px 30px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
 
             h5{
                  margin-bottom: 9px;
@@ -77,6 +79,7 @@ margin-top: 30px;
               display: flex;
 
               gap: 37px;
+              position: relative;
 
             
             button{
@@ -102,18 +105,23 @@ margin-top: 30px;
               display: flex;
               align-items: center;
 
-
               .img1{
                 width: 25px;
                 height: 25px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
               }
               .img2{
                 width: 30px;
                 height: 30px;
+                position: absolute;
+                bottom: 6px;
+              
               }
             }
           }
-
+          
           }
      }
 }

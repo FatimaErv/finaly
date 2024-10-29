@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import product from "../../assets/image/product.png"
 import favourite from "../../assets/svg/favourite.svg"
 import rating from "../../assets/svg/rating.svg"

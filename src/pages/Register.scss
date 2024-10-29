@@ -1,0 +1,113 @@
+.reg{
+    .register{
+        .register-top{
+            padding-left: 76px;
+            position: relative;
+            p{
+                margin-top: 59px;
+                color: rgb(111, 118, 130);
+                font-family: PT Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            h2{
+                position: absolute;
+                margin-top: 60px;
+                color: rgb(21, 36, 79);
+                font-family: PT Sans;
+                font-size: 35px;
+                font-weight: 700;
+                line-height: 45px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            span{
+              
+               margin-left: 90px;
+              
+                color: rgb(241, 242, 246);
+                font-family: PT Sans;
+                font-size: 110px;
+                font-weight: 700;
+                line-height: 142px;
+                letter-spacing: 0%;
+                text-align: center;
+            } 
+        }
+        .register-main{
+            display: flex;
+          
+            gap: 141px;
+            padding-left: 75px;
+            padding-top: 80px;
+            .register-left{
+                p{
+                    color: rgb(111, 118, 130);
+                    font-family: PT Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    width: 190px;
+                    height: 30px;
+                    &:hover{
+                    color: rgb(71, 152, 222);
+                    font-family: PT Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 21px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    border-right: 3px solid rgb(71, 152, 222);
+                      }
+                }
+            }
+            .register-right{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+                width: 629px;
+            
+                input{
+                    width: 569px;
+                    height: 49px;
+                    border: none;
+                    
+                    border-bottom: 1px solid rgb(111, 118, 130);
+
+                    &::placeholder{
+                        /* T1_14 */
+                    color: rgb(21, 36, 79);
+                    font-family: PT Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    }
+
+                }
+                button{
+                  /* /T3_16_Bold */
+color: rgb(255, 255, 255);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+background-color:  rgb(71, 152, 222);
+border: none;
+width: 569px;
+height: 50px;
+                }
+
+            }
+        }
+    }
+}

@@ -1,4 +1,6 @@
-import React, {useEffect,useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import { useParams } from 'react-router-dom'
+import "./ItemProduct.scss"
 import stars from "../../assets/svg/stars.svg"
 import hit from "../../assets/svg/hit.svg"
 import vanna from "../../assets/image/vanna.png"
@@ -8,7 +10,8 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import "./ItemProduct"
 
-const API =  "https://66fd3da2c3a184a84d199c30.mockapi.io/products"
+
+const API = "https://66fd3da2c3a184a84d199c30.mockapi.io/products"
 
 
 
@@ -81,6 +84,7 @@ function ItemProduct() {
       </div>
     
     </div>
+      
   )
 }
 

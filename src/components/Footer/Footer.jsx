@@ -15,7 +15,7 @@ import loca from "../../assets/loca.svg"
 
 function Footer() {
     return (
-        <div className="new-footer container">
+        <div className="new-footer">
             <div className="footer">
                 <div className="footer1">
                     <div className="logo">
