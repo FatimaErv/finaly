@@ -7,7 +7,6 @@ import vanna from "../../assets/image/vanna.png"
 import detail from "../../assets/image/detail.png"
 import vannaDetail from "../../assets/image/vannaDetail.png"
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
 import "./ItemProduct"
 
 
