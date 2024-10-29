@@ -2,13 +2,14 @@
 display: grid;
 grid-template-columns: repeat(4,1fr);
 margin-bottom: 30px;
-
+margin-top: 30px;
 
 
 
      .product{
        width: 300px;
        height: 438px;
+       margin-top: 20px;
        
       
 
@@ -19,8 +20,9 @@ margin-bottom: 30px;
        }
 
           img{
-            width: 100%;
+            width: 90%;
             height: 216px;
+           margin-left: 14px;
           }
 
           .product-content{
@@ -28,7 +30,8 @@ margin-bottom: 30px;
 
             h5{
                  margin-bottom: 9px;
-                color: rgb(71, 152, 222);
+                 color: rgb(111, 118, 130);
+                 list-style: none;
                 font-family: PT Sans;
                 font-size: 14px;
                 font-weight: 400;
@@ -37,6 +40,8 @@ margin-bottom: 30px;
                 text-align: left;
             }
             h6{
+              color: rgb(111, 118, 130);
+                list-style: none;
                 font-family: PT Sans;
                 font-size: 13px;
                 font-weight: 400;
@@ -70,6 +75,7 @@ margin-bottom: 30px;
 
             .shop{
               display: flex;
+
               gap: 37px;
 
             
@@ -93,6 +99,8 @@ margin-bottom: 30px;
             }
 
             .icons{
+              display: flex;
+              align-items: center;
 
 
               .img1{

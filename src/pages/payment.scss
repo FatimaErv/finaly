@@ -1,0 +1,146 @@
+.payment{
+
+
+    .payment-top{
+        position: relative;
+        h6{
+            /* T1_14 */
+            color: rgb(111, 118, 130);
+            font-family: PT Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 46px;
+           
+        }
+
+        .oplata{
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        
+        h2{
+            /* H1_35 */
+            color: rgb(21, 36, 79);
+            font-family: PT Sans;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 999;
+
+        }
+        img{
+            margin-left: -25px;
+            z-index: 99;
+        }
+    }
+    .png{
+        width: 535px;
+        height: 325px;
+        position: absolute;
+        top: 0;
+        left: 770px;
+        z-index: 77;
+
+    }
+    }
+    .payment-bottom{
+      margin-top: 60px;
+      display: flex;
+      gap: 32px;
+
+        .pay1{
+            width: 300px;
+            height: 100%;
+            padding: 20px 15px;
+            border: 0.5px solid rgb(236, 239, 246);
+            z-index: 777;
+            box-sizing: border-box;
+            border: 1px solid rgb(241, 242, 246);
+            border-radius: 5px;
+            background: rgb(255, 255, 255);
+
+            .dolar{
+                display: flex;
+                // align-items: center;
+                gap: 15px;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+
+                h4{
+                    /* H3_20_Bold */
+                    color: rgb(71, 152, 222);
+                    font-family: PT Sans;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+            }
+            h6{ 
+                color: rgb(111, 118, 130);
+                font-family: PT Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                    text-align: left;
+              
+            }
+            p{
+                color: rgb(111, 118, 130);
+                font-family: PT Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0%;
+                    
+                    text-align: left;
+            }
+            h5{
+                color: rgb(108, 219, 126);
+                font-family: PT Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0%;
+                    
+                    text-align: left;  
+            }
+        }
+    }
+    .info4{
+        width: 270px;
+        height: 40px;
+        border-radius: 5px;
+        background: rgb(71, 152, 222);
+        margin: 60px 75px 30px 1000px;
+
+        img{
+            margin-left: 20px;
+        }
+        button{
+            width: 210px;
+            height: 40px;
+        background: rgb(71, 152, 222);
+           
+            /* /T3_16_Bold */
+            color: rgb(255, 255, 255);
+            font-family: PT Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: center;
+            border-style: none;
+        }
+    }
+}

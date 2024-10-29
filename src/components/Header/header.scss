@@ -19,7 +19,8 @@
         .head{ 
  
            ul{ 
-                width: 474px; 
+                width: 474px;
+            
                display: flex; 
                justify-content: space-between; 
                align-items: center; 
@@ -42,9 +43,10 @@
         } 
 
         .sign{ 
+        
            display: flex; 
            justify-content: space-between; 
-           align-items: center; 
+         
           
 
            img{ 
@@ -54,6 +56,7 @@
            .user{ 
                display: flex; 
                justify-content: space-between; 
+              
                width: 120px; 
                margin-left: 13px; 
 
