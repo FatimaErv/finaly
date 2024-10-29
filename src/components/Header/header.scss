@@ -7,6 +7,8 @@
        height: 51px; 
        display: flex; 
        justify-content: space-between; 
+       padding-left: 30px;
+       padding-right: 30px;
        align-items: center; 
         padding-bottom: 20px; 
        border-bottom: 1px solid  rgb(111, 118, 130);; 
@@ -58,7 +60,7 @@
                margin-left: 13px; 
 
 
-               p{ 
+               a{ 
                    color: rgb(111, 118, 130); 
                        font-family: PT Sans; 
                        font-size: 14px; 
@@ -66,7 +68,7 @@
                        line-height: 18px; 
                        letter-spacing: 0%; 
                        text-align: center; 
-                      
+                      text-decoration: none;
                } 
 
 

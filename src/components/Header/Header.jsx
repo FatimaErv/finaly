@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import "./header.scss" 
 function Header() { 
 return( 
-    <div className="header container"> 
+    <div className="header"> 
         <div className="header-top"> 
  
         <img src={logo} alt="" /> 
@@ -41,14 +41,14 @@ return(
         <div className="sign"> 
             <img src={user} alt="" /> 
             <div className="user"> 
-                <p>Вход</p> 
+                <Link to="/login">Вход</Link> 
                 <p>/</p> 
-                <p>Регистрация</p> 
+                <Link to="/register">Регистрация</Link> 
             </div> 
  
         </div> 
         </div> 
-        <div className="header-bottom"> 
+        <div className="header-bottom container"> 
             <div className="header-content"> 
               <img src={group} alt="" /> 
               <h4>Каталог товаров</h4> 
@@ -65,13 +65,11 @@ return(
             <div className="header-icons"> 
                 <div className="head-icon"> 
                     <img src={favourite} alt="" /> 
-                    
                 </div> 
-                 
-                <div className="head-icon"> 
+                <Link to='/cart' className="head-icon"> 
                     <img src={cart} alt="" /> 
                  
-                </div> 
+                </Link> 
             </div> 
  
         </div> 
