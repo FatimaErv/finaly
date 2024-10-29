@@ -6,6 +6,8 @@ import Guarantee from "./pages/Guarantee"
 import Payment from "./pages/Payment"
 import Delivery from "./pages/Delivery";
 import Contact from "./pages/Contact";
+import DetailProduct from "./pages/DetailProduct";
+import Wishlist from "./pages/Wishlist";
 
 export const myRouter = createBrowserRouter([
     {
@@ -35,7 +37,16 @@ export const myRouter = createBrowserRouter([
             {
                 path:"contact",
                 element:<Contact/>
+            },
+            {
+                path:"detailProduct/:id",
+                element:<DetailProduct/>
+            },
+            {
+                path:"Wishlist",
+                element:<Wishlist/>
             }
+        
         ],
     }
     ]  

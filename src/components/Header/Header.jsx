@@ -63,10 +63,10 @@ return(
  
             </div> 
             <div className="header-icons"> 
-                <div className="head-icon"> 
+                <Link to ="/Wishlist" className="head-icon"> 
                     <img src={favourite} alt="" /> 
                     
-                </div> 
+                 </Link> 
                  
                 <div className="head-icon"> 
                     <img src={cart} alt="" /> 

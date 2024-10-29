@@ -1,0 +1,357 @@
+.delivery{
+
+    h6{
+        /* T1_14 */
+        color: rgb(111, 118, 130);
+        font-family: PT Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 46px;
+    }
+
+    .delivery-logo{
+        position: relative;
+        display: flex;
+        align-items: center;
+
+    h2{
+        /* H1_35 */
+            color: rgb(21, 36, 79);
+            font-family: PT Sans;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 60px;
+            z-index: 999;
+    }
+    img{
+        position: absolute;
+        left: 80px;
+        top: 45px;
+        z-index: 99;
+    }
+    }
+
+    .delivery-info{
+        display: flex;
+        gap: 30px;
+
+        .city{
+            width: 410px;
+            height: 87px;
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            box-sizing: border-box;
+
+            border: 1px solid rgb(241, 242, 246);
+            border-radius: 5px;
+
+            background: rgb(255, 255, 255);
+
+           
+            h5{
+                /* H4_20 */
+                color: rgb(111, 118, 130);
+                font-family: PT Sans;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+
+                
+            }
+
+             &:hover{
+                border-radius: 5px;
+
+                background: rgba(71, 152, 222, 0.05);
+
+                  h5:hover{
+                    color: rgb(71, 152, 222);  
+                    font-family: PT Sans;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                
+            }
+        }
+    }
+
+    .informations{
+         
+
+        .info1{
+
+
+            h5{
+                /* H3_20_Bold */
+                color: rgb(71, 152, 222);
+                font-family: PT Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 30px;
+            }
+
+            .info-content{
+                display: flex;
+              
+
+
+                .info-text{
+                    position: relative;
+                    width: 790px;
+                   
+                    padding: 30px 30px 0px 30px;
+                   
+                    
+
+                  
+
+                    h4{
+                        /* /T3_16_Bold */
+                        color: rgb(111, 118, 130);
+                        font-family: PT Sans;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 21px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                    }
+
+                    .text1{
+                        display: flex;
+                        justify-content: space-between;
+                        
+                       .price1{
+                        width: 410px;
+                        height: 59px;
+                     
+
+                       }
+                       .price2{
+                         width: 190px;
+                         height: 59px;
+                         padding: 0px 0px 0px 20px;
+                     
+                       }
+                       .price3{
+                        width: 190px;
+                        height: 59px;
+                        padding: 0px 0px 0px 20px;
+                      
+
+                      }
+                        
+                      
+
+                        
+
+                    }
+                    .text2{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: -30px;
+
+                        .h6{
+                            width: 370px;
+                            
+                        }
+
+                    }
+                    .text3{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: -30px;
+
+
+                        .h6{
+                            width: 370px;
+                        }
+                    }
+                    .text4{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: -30px;
+
+
+                        .h6{
+                            width: 370px;
+                        }
+                        
+                    }
+                    .text5{
+                        width: 740px;
+                        height: 105px;
+                        margin-top: 10px;
+
+
+                        h6{
+                            color: rgb(111, 118, 130);
+                            font-family: PT Sans;
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            margin-top: 10px;
+
+
+                        }
+                        h5{
+                           color:  rgb(108, 219, 126);
+                           font-family: PT Sans;
+                           font-size: 14px;
+                           font-weight: 700;
+                           line-height: 18px;
+                           letter-spacing: 0%;
+                           text-align: left;
+                        margin-top: 10px;
+
+                        }
+                    }
+
+                }
+                img{
+                    width: 515px;
+                    height: 460px;
+                }
+                .img1{
+                    position: absolute;
+                    left: 1123px;
+                }
+                .img11{
+                    position: absolute;
+                    left: 1123px;
+                }
+            }
+        }
+        .info2{
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            margin-top: 72px;
+            position: relative;
+            img{
+                width: 545px;
+                height: 491px;
+            }
+            .info22{
+                position: absolute;
+            }
+            .info222{
+                position: absolute;
+            }
+
+
+            .info2-text{
+                width: 850px;
+                height: 475px;
+                padding:  10px 30px;
+                
+
+
+                h5{
+                    /* H3_20_Bold */
+                        color: rgb(71, 152, 222);
+                        font-family: PT Sans;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 26px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-bottom: 30px;
+                }
+                p{
+                    /* T1_14 */
+                    color: rgb(111, 118, 130);
+                    font-family: PT Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                   
+                  
+                }
+
+
+            }
+        }
+        .info3{
+            width: 1290px;
+            height: 484px;
+            padding: 30px;
+            margin-top: 20px;
+
+            h5{
+                /* H3_20_Bold */
+                color: rgb(71, 152, 222);
+                font-family: PT Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            p{
+                /* T1_14 */
+                color: rgb(111, 118, 130);
+                font-family: PT Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+        .info4{
+            width: 270px;
+            height: 40px;
+            border-radius: 5px;
+            background: rgb(71, 152, 222);
+            margin: 60px 75px 30px 1000px;
+
+            img{
+                margin-left: 20px;
+            }
+            button{
+                width: 210px;
+                height: 40px;
+            background: rgb(71, 152, 222);
+               
+                /* /T3_16_Bold */
+                color: rgb(255, 255, 255);
+                font-family: PT Sans;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: center;
+                border-style: none;
+            }
+        }
+
+    }
+
+
+
+}
