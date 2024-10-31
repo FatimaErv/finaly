@@ -7,6 +7,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom' 
 import { addWish } from '../../redux/wishlist/wishSlice' 
 import { useDispatch } from 'react-redux' 
+import { addCart } from '../../redux/cart/cartSlice'
  
  
  
@@ -63,7 +64,7 @@ function Product() {
              <h5>{checkPrice(item.price, item.discount)}$ </h5>
             </div>
             <div className='shop'> 
-              <button>В корзину</button> 
+              <button onClick={() =>dispatch(addCart(item))}>В корзину</button> 
               <div className='icons'> 
  
               <img onClick={()=>dispatch(addWish(item))} className='img1' src={favourite} alt="" /> 

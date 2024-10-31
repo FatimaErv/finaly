@@ -6,8 +6,13 @@ import search from "../../assets/search.svg";
 import favourite from "../../assets/favorite.svg";
 import cart from "../../assets/cart.svg";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import "./header.scss";
 function Header() {
+
+  
+  const {items} = useSelector((state)=> state.wishlist)
+  const {list} = useSelector((state)=> state.cart)
   return (
     <div className="header">
       <div className="header-top">
@@ -60,11 +65,13 @@ function Header() {
           <Link to="/Wishlist" className="head-icon">
             <img src={favourite} alt="" />
           </Link>
-
-          <div className="head-icon"></div>
+          <div className="count-1">{items.length}</div>
           <Link to="/cart" className="head-icon">
             <img src={cart} alt="" />
           </Link>
+          <div className="count-2">{list.length}</div>
+     
+
         </div>
       </div>
     </div>
