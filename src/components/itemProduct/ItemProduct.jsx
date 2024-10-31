@@ -1,13 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
-import "./ItemProduct.scss"
+import "./Item.scss"
 import stars from "../../assets/svg/stars.svg"
 import hit from "../../assets/svg/hit.svg"
 import vanna from "../../assets/image/vanna.png"
 import detail from "../../assets/image/detail.png"
 import vannaDetail from "../../assets/image/vannaDetail.png"
 import axios from 'axios'
-import "./ItemProduct"
 
 
 const API = "https://66fd3da2c3a184a84d199c30.mockapi.io/products"
@@ -18,6 +17,9 @@ function ItemProduct() {
   const {id} = useParams()
   const [data, setData] = useState({})
   const [image,setImage] = useState("")
+  const [title,setTitle] = useState("")
+  const [price,setPrice] = useState()
+
 
   
 
@@ -27,6 +29,9 @@ function ItemProduct() {
       console.log(res);
       setData(res.data)
       setImage(res.data.image)
+      setTitle(res.data.title)
+      setPrice(res.data.price)
+
       
       
     } catch (error) {
@@ -51,14 +56,18 @@ function ItemProduct() {
             
           </div>
           <div className='details'>
-          <img src={vannaDetail} alt="" />
-          <img src={detail} alt="" />
-          <img src={detail} alt="" />
-          <img src={vannaDetail} alt="" />
+            {data.images?.map((item)=>(
+              <div onClick={()=>setImage(item)} className="img">
+
+                <img src={item} alt="" />
+              </div>
+
+            ))}
+      
           </div>
         </div>
         <div className='tovar-right'>
-          <h3>Ванна акриловая прямоугольная Акватек Мия 140*70см без гидромассажа</h3>
+          <h3>{title}</h3>
           <div className='tovar-content'>
             <div className='about'>
               <h5>Коротко о товаре</h5>
@@ -71,12 +80,13 @@ function ItemProduct() {
               <p> - Вид установки:</p>
               <p>- Ручки:</p>
               <h6>Все характеристики</h6>
-            </div>
             <div className='add'>
-              <h3>15000$</h3>
+              <h3>{price}$</h3>
               <button className='btn1'>В корзину</button>
               <button className='btn2'>Купить в один клик</button>
               <h6>Товар в наличии</h6>
+            </div>
+
             </div>
           </div>
         </div>

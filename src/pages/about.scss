@@ -1,0 +1,281 @@
+.about{
+
+
+    p{
+        /* T1_14 */
+        color: rgb(111, 118, 130);
+        font-family: PT Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .about-logo{
+        display: flex;
+        align-items: center;
+        
+
+        h4{
+            /* H1_35 */
+            color: rgb(21, 36, 79);
+            font-family: PT Sans;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0%;
+            text-align: left;
+            z-index: 999;
+        }
+        
+        img{
+          margin-left: -20px;  
+          z-index: 99; 
+        }
+    }
+    
+    .about-text{
+        margin-top: 80px;
+        
+
+        h5{
+            /* [object Object] */
+                color:rgb(71, 152, 222);
+                font-family: PT Sans;
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 0px;
+                letter-spacing: 0%;
+                text-align: left;
+        }
+        p{
+            /* [object Object] */
+            color:rgb(111, 118, 130);
+            font-family: PT Sans;
+            font-size: 20px;
+            font-weight: 400;
+            // line-height: 2px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    .why{
+        position: relative;
+        height: 495px;
+        
+        img{
+            position: absolute;
+            width: 1440px;
+            height: 495px;
+            margin-left: -70px;
+            z-index: 77;
+        }
+       
+        .why-content{
+            position: absolute;
+            z-index: 777;
+            top: 113px;
+            left: 75px;
+            margin: 0;
+            left: 75px;
+
+            h3{
+                width: 770px;
+                margin-left: -70px;
+                color: rgb(21, 36, 79);
+                font-family: PT Sans;
+                font-size: 35px;
+                font-weight: 700;
+                line-height: 45px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .why-info{
+
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 30px;
+                margin-top: 80px;
+
+                
+                
+                .why-box{
+                    display: flex;
+                    margin-right: 30px;
+                    margin-bottom: 41px;
+                  
+
+                    img{
+                      width: 70px;
+                      height: 70px;  
+                  
+                    }
+
+                    .box-text{
+                        width: 210px;
+                        height: 100%;
+                        margin-left: 30px;
+                       
+
+                         h5{
+                            /* [object Object] */
+                            font-family: PT Sans;
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                         }
+                         p{
+                            /* [object Object] */
+                            font-family: PT Sans;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            margin: 0;
+                            padding: 0;
+        
+                         }
+
+                    }
+
+
+
+                }
+            }
+        } 
+        
+    }
+
+    .offer-box{
+        margin-bottom: 120px;
+
+        .offer-text{
+            display: flex;
+            align-items: center;
+
+            h4{
+                /* H1_35 */
+                color: rgb(21, 36, 79);
+                font-family: PT Sans;
+                font-size: 35px;
+                font-weight: 700;
+                line-height: 45px;
+                letter-spacing: 0%;
+                text-align: left;
+                z-index: 999;
+            }
+            img{
+                width: 784px;
+                height: 142px;
+                margin-left: -300px;
+                z-index: 99;
+            }
+        }
+
+        .offers{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 30px;
+
+            .offer{
+                width: 190px;
+                height: 243px;
+                border-radius: 5px;
+               background: rgb(241, 242, 246);
+              
+
+                img{
+                    width: 150px;
+                    height: 150px;
+                    margin: 10px 20px 15px 20px;
+
+                }
+                h5{
+                    /* [object Object] */
+                    color: rgb(71, 152, 222);
+                    font-family: PT Sans;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .we{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        height: 350px;
+
+        .we-text{
+            width: 664px;
+            height: 246px;
+            z-index: 999;
+
+
+            p{
+                color:rgb(111, 118, 130);
+                font-family: PT Sans;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;  
+            }
+            h6{
+                color:rgb(108, 219, 126);
+                font-family: PT Sans;
+                font-size: 20px;
+                font-weight: 400;
+                // line-height: 2px;
+                letter-spacing: 0%;
+                text-align: left;
+          
+            }
+        }
+        img{
+            position: absolute;
+            left: 279px;
+            width: 1070px;
+            height: 350px;
+            z-index: 99;
+        }
+    }
+    .info4{
+        width: 270px;
+        height: 40px;
+        border-radius: 5px;
+        background: rgb(71, 152, 222);
+        margin: 60px 75px 30px 1000px;
+
+        img{
+            margin-left: 20px;
+        }
+        button{
+            width: 210px;
+            height: 40px;
+        background: rgb(71, 152, 222);
+           
+            /* /T3_16_Bold */
+            color: rgb(255, 255, 255);
+            font-family: PT Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: center;
+            border-style: none;
+        }
+    }
+    
+}
+
+  

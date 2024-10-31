@@ -10,6 +10,7 @@
          width: 300px; 
          height: 438px; 
          margin-top: 20px; 
+         position: relative;
           
          
    
@@ -24,6 +25,20 @@
               height: 216px; 
              margin-left: 14px; 
             } 
+            .sale{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              width: 75px;
+              height: 30px;
+              border-radius: 5px;
+              background-color: red;
+              color: white;
+              top: 0px;
+              left: 15px;
+
+            }
    
             .product-content{ 
               padding: 9px 30px 20px 30px; 
@@ -61,17 +76,35 @@
                   margin-top: 9px; 
                   
               } 
+              .price{
+                display: flex;
+                gap: 125px;
+
+              
               h4{ 
-                  color: rgb(21, 36, 79); 
+                color: rgb(140, 142, 147); 
+                  
                   font-family: PT Sans; 
                   font-size: 22px; 
                   font-weight: 700; 
                   line-height: 28px; 
                   letter-spacing: 0%; 
                   text-align: left; 
-                  margin-top: 18px; 
-                  margin-bottom:19px; 
+                  text-decoration-line: line-through;
+
+                  
               } 
+              h5{
+                color: rgb(21, 36, 79); 
+
+                font-family: PT Sans; 
+                font-size: 22px; 
+                font-weight: 700; 
+                line-height: 28px; 
+                letter-spacing: 0%; 
+                text-align: left; 
+              }
+            }
    
               .shop{ 
                 display: flex; 
@@ -94,7 +127,9 @@
                   text-align: center; 
    
                   &:hover{ 
-                    box-shadow: 1px 2px 2px 1px black; 
+                    // box-shadow: 1px 2px 2px 1px black; 
+                color: rgb(21, 36, 79); 
+                    
                   } 
               } 
    
