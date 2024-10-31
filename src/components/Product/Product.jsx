@@ -19,6 +19,12 @@ function Product() {
   const[products, setProducts] = useState([]) 
  
   const dispatch = useDispatch() 
+
+  
+  function checkPrice(p, d) {
+    return p - (p * (d / 100)).toFixed(0);
+  }
+  checkPrice();
   async function getProduct() { 
     try { 
       const res = await axios.get(API) 
@@ -33,6 +39,7 @@ function Product() {
      
   } 
   useEffect(()=>{getProduct()},[]) 
+
   return ( 
     <div> 
       <div className='products container'> 
@@ -43,13 +50,18 @@ function Product() {
         <div className='product'> 
           <Link to={`/detailProduct/${item.id}`}> 
           <img src={item.image}alt="" /> 
+          <div className='sale'>{item.discount}%</div>
           </Link> 
           <div className='product-content'> 
             <h5>{item.title}</h5> 
             <h6>Бранд</h6> 
             <h6>Страна</h6> 
             <p>В наличии</p> 
-            <h4>{item.price}$</h4> 
+            <div className='price'>
+          
+           <h4>{item.price}$</h4> 
+             <h5>{checkPrice(item.price, item.discount)}$ </h5>
+            </div>
             <div className='shop'> 
               <button>В корзину</button> 
               <div className='icons'> 
