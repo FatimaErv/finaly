@@ -1,16 +1,16 @@
 .chek{
     width: 1070px;
     position: relative;
-height: 515px;
-border-radius: 5px;
-
-/* Light Blue */
-background: rgb(233, 242, 249);
-margin: 50px auto;
+    height: 515px;
+    border-radius: 5px;
+    background: rgb(233, 242, 249);
+    margin: 50px auto;
+ 
 .chek-top{
     position: absolute;
     top: 60px;
     left: 400px;
+ 
     h2{
         color: rgb(71, 152, 222);
         font-family: PT Sans;
@@ -28,6 +28,8 @@ margin: 50px auto;
     top: 120px;
     left: 80px;
     display: flex;
+    overflow-x: none;
+    overflow-y: scroll;
     
     
    
@@ -42,6 +44,7 @@ margin: 50px auto;
     gap: 40px;
     align-items: center;
     width: 250px;
+
             img{
                 width: 189px;
                 height: 141.75px;
@@ -83,11 +86,14 @@ margin: 50px auto;
         margin-top: 5px; 
         // text-align: left; 
     } 
+
+    
   
 
 .icons{ 
     display: flex; 
     flex-direction: column; 
+ 
 
     img{ 
         width: 16px; 
@@ -111,8 +117,9 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-    }
 }
+
+    }
 .number{
     position: absolute;
     bottom: 108px;
