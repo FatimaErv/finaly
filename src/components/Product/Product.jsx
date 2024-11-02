@@ -12,11 +12,14 @@ import { addCart } from '../../redux/cart/cartSlice'
  
  
  
+ 
 const API = "https://66fd3da2c3a184a84d199c30.mockapi.io/products" 
  
  
  
 function Product() { 
+
+  
   const[products, setProducts] = useState([]) 
  
   const dispatch = useDispatch() 

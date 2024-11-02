@@ -4,6 +4,7 @@ import newboth from '../../assets/image/newboth.png'
 import axes2 from '../../assets/image/axes2.png'
 import riho from '../../assets/image/riho.png'
 import { Carousel } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 function Banner() {
@@ -64,7 +65,10 @@ function Banner() {
         <div className='new-both2'>
             <h3>Скидки на мебель для ванной комнаты</h3>
             <h4>до 10%</h4>
+            <Link to="/about">
             <button>Подробнее</button>
+            
+            </Link>
         </div>
       </div>
     </div>

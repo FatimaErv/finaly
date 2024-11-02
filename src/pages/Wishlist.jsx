@@ -1,19 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./wishlist.scss"
 import vanna from "../assets/image/vanna.png"
 import favourite from "../assets/svg/favourite.svg" 
 import line from "../assets/svg/line.svg"
-import { useSelector } from 'react-redux'
-import { useDispatch } from 'react-redux'
-import { addCart } from '../redux/cart/cartSlice'
+import { useDispatch, useSelector } from 'react-redux'
+import { removewish } from '../redux/wishlist/wishSlice'
 
 
 
 function Wishlist() {
   const{items} = useSelector ((state) => state.wishlist)
-  
 
-  const dispatch = useDispatch();
+
+  const [wishlist, setWishlist] = useState(  );
+  const dispatch = useDispatch()
+
+ 
+ 
+  
 
   return (
     <div className='wishlist container'>
@@ -35,7 +39,7 @@ function Wishlist() {
           {
             items?.map((data)=>(
 
-        <div className='wish-prod'>
+        <div key={data.id} className='wish-prod'>
      <img src={data.image}alt="" />
     <div className='product-content'>
         <h5>{data.title}</h5>
@@ -45,8 +49,9 @@ function Wishlist() {
       <button onClick={() =>dispatch(addCart(data))}>В корзину</button>
       <div className='icons'>
 
-      <img className='img1' src={favourite} alt="" />
-   
+      <img onClick={()=>dispatch(removewish(data.id))} className='img1' src={favourite} alt="" />
+
+      <img   className='img2' src={rating} alt="" />
       </div>
     </div>
   </div>
@@ -58,7 +63,7 @@ function Wishlist() {
         </div>
            
 
-           <button></button>
+
  
         </div>
       </div>

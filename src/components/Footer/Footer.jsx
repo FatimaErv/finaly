@@ -3,8 +3,7 @@ import "./Footer.scss"
 import gidrator from "../../assets/image/gidrator.png"
 import wk from "../../assets/image/wk.png"
 import insta from "../../assets/image/insta.png"
-import fbook from ".././../assets/image/fbook.png"
-
+import fbook from ".././../assets/image/fbook.png" 
 import visa from "../../assets/visa.svg"
 import mastercard from "../../assets/mastercard.svg"
 import mir from "../../assets/mir.svg"
@@ -45,7 +44,6 @@ function Footer() {
                     <p>Гарантии и возврат</p>
                     <p>Производители</p>
                     <p>Статьи</p>
-
                 </div>
                 <div className="footer2">
                 <h1>КОМПАНИЯ</h1>
@@ -78,10 +76,7 @@ function Footer() {
                 </div>
             <p>Станьте нашим подписчиком, чтобы быть в курсе информации о новинках и специальных предложениях.</p>
             </div>
-      
         </div>
-
-
     )
 }
 export default Footer;

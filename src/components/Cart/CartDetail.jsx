@@ -78,14 +78,14 @@ function CartDetail() {
               Цена: <span>{result}$</span>
             </p>
             <p>
-              Доставка: <span>500$</span>{" "}
+              Доставка: <span>50$</span>{" "}
             </p>
             <p>
               Итого: <span>{result + 500}$</span>
             </p>
             <Link to="/pay">
               <button>Купить в один клик</button>
-            </Link>
+            
           </div>
         </div>
       </div>
