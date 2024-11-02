@@ -150,7 +150,7 @@
      
                  .shop{
                    display: flex;
-     
+                   justify-content: space-between;
                    gap: 37px;
      
                  
@@ -167,10 +167,13 @@
                      line-height: 21px;
                      letter-spacing: 0%;
                      text-align: center;
-     
-                     &:hover{
-                       box-shadow: 1px 2px 2px 1px black;
-                     }
+                    
+
+                     &:hover{ 
+                      // box-shadow: 1px 2px 2px 1px black; 
+                  color: rgb(21, 36, 79); 
+                      
+                    } 
                  }
      
                  .icons{
@@ -182,10 +185,7 @@
                      width: 25px;
                      height: 25px;
                    }
-                   .img2{
-                     width: 30px;
-                     height: 30px;
-                   }
+                
                  }
                }
      

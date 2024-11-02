@@ -83,7 +83,7 @@ function CartDetail() {
             <p>
               Итого: <span>{result + 500}$</span>
             </p>
-            <Link to="/check-out">
+            <Link to="/pay">
               <button>Купить в один клик</button>
             </Link>
           </div>

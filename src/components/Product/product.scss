@@ -33,7 +33,7 @@
               width: 75px;
               height: 30px;
               border-radius: 5px;
-              background-color: red;
+              background-color: rgb(84, 5, 5);
               color: white;
               top: 0px;
               left: 15px;
@@ -78,7 +78,8 @@
               } 
               .price{
                 display: flex;
-                gap: 125px;
+                justify-content: space-between;
+                
 
               
               h4{ 
@@ -108,7 +109,7 @@
    
               .shop{ 
                 display: flex; 
-   
+                justify-content: space-between;
                 gap: 37px; 
    
                
