@@ -85,6 +85,7 @@ function CartDetail() {
             </p>
             <Link to="/pay">
               <button>Купить в один клик</button>
+              </Link>
             
           </div>
         </div>
