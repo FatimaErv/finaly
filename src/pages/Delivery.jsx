@@ -31,18 +31,18 @@ function Delivery() {
      
       <div className='delivery-info'>
         <div className='city'>
-          <img src={bus} alt="" />
+          
           <img className='img2' src={bus1} alt="" />
 
           <h5>Доставка по городу </h5>
         </div>
         <div className='city'>
-          <img src={box} alt="" />
+        
           <img className='img2' src={box2} alt="" />
           <h5>Доставка по СНГ и регионы</h5>
         </div>
         <div className='city'>
-          <img src={car} alt="" />
+       
           <img className='img2' src={car2} alt="" />
           <h5>Пункт самовывоза товаров</h5>
         </div>

@@ -7,13 +7,20 @@ import vanna from "../../assets/image/vanna.png"
 import detail from "../../assets/image/detail.png"
 import vannaDetail from "../../assets/image/vannaDetail.png"
 import axios from 'axios'
-
+import { useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
+import { addCart } from '../../redux/cart/cartSlice'
 
 const API = "https://66fd3da2c3a184a84d199c30.mockapi.io/products"
 
 
 
+
 function ItemProduct() {
+  const{list} = useSelector ((state) => state.cart)
+
+  const dispatch = useDispatch();
+
   const {id} = useParams()
   const [data, setData] = useState({})
   const [image,setImage] = useState("")
@@ -82,7 +89,12 @@ function ItemProduct() {
               <h6>Все характеристики</h6>
             <div className='add'>
               <h3>{price}$</h3>
-              <button className='btn1'>В корзину</button>
+             
+
+              {/* <button className='btn1'>В корзину</button> */}
+              <button className='btn1' onClick={() =>dispatch(addCart(list))}>В корзину</button> 
+              
+              
               <button className='btn2'>Купить в один клик</button>
               <h6>Товар в наличии</h6>
             </div>

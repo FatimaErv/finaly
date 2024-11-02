@@ -53,13 +53,16 @@
 
             border: 1px solid rgb(241, 242, 246);
             border-radius: 5px;
+         
 
-            background: rgb(255, 255, 255);
+            background: rgba(71, 152, 222, 0.05);
+
+          
 
            
             h5{
                 /* H4_20 */
-                color: rgb(111, 118, 130);
+                color: rgb(71, 152, 222);  
                 font-family: PT Sans;
                 font-size: 20px;
                 font-weight: 400;
@@ -70,22 +73,7 @@
                 
             }
 
-             &:hover{
-                border-radius: 5px;
-
-                background: rgba(71, 152, 222, 0.05);
-
-                  h5:hover{
-                    color: rgb(71, 152, 222);  
-                    font-family: PT Sans;
-                    font-size: 20px;
-                    font-weight: 700;
-                    line-height: 26px;
-                    letter-spacing: 0%;
-                    text-align: left;
-                }
-                
-            }
+           
         }
     }
 

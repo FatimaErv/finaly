@@ -2,14 +2,19 @@ import React from 'react'
 import "./wishlist.scss"
 import vanna from "../assets/image/vanna.png"
 import favourite from "../assets/svg/favourite.svg" 
-import rating from "../assets/svg/rating.svg"
 import line from "../assets/svg/line.svg"
 import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
+import { addCart } from '../redux/cart/cartSlice'
 
 
 
 function Wishlist() {
   const{items} = useSelector ((state) => state.wishlist)
+  
+
+  const dispatch = useDispatch();
+
   return (
     <div className='wishlist container'>
       <h6>Главная / Личный кабинет</h6>
@@ -37,11 +42,11 @@ function Wishlist() {
         <p>В наличии</p>
         <h4>122$</h4>
     <div className='shop'>
-      <button>В корзину</button>
+      <button onClick={() =>dispatch(addCart(data))}>В корзину</button>
       <div className='icons'>
 
       <img className='img1' src={favourite} alt="" />
-      <img className='img2' src={rating} alt="" />
+   
       </div>
     </div>
   </div>

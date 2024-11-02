@@ -1,0 +1,134 @@
+.pay{
+    
+
+
+  .contact{
+
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(246, 239, 239);
+    box-shadow: 1px 2px 2px 1px;
+    border-radius: 5px;
+    padding: 20px 20px 5px 20px;
+    margin: 10px 75px 30px 75px;
+
+   h3{
+            font-family: Poppins;
+
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+
+   }
+    input{
+        width: 960px;
+        height: 50px;
+        margin-top: 6px;
+        font-size: 16px;
+        font-family: PT Sans;
+        border-radius: 5px;
+        
+    }
+}
+.adress{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(246, 239, 239);
+    box-shadow: 1px 2px 2px 1px;
+    border-radius: 5px;
+    padding: 20px 20px 5px 20px;
+    margin: 30px 75px 30px 75px;
+
+    h3{
+        font-family: Poppins;
+
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    
+       }
+
+       input{
+        width: 960px;
+        height: 50px;
+        margin-top: 6px;
+        font-size: 16px;
+        font-family: PT Sans;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        
+    }
+
+    .four{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+       
+
+        input{
+            width: 470px;
+           height: 45px;
+        }
+    }
+
+}
+.order{
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(246, 239, 239);
+    box-shadow: 1px 2px 2px 1px;
+    border-radius: 5px;
+    padding: 20px 50px 5px 50px;
+    margin: 30px 75px 30px 75px;
+
+    h3{
+        font-family: Poppins;
+
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    
+       }
+
+       .order-price{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        margin-bottom: 15px;
+
+        h6{
+        font-family: Poppins;
+            
+            font-size: 26px;
+            font-weight: 400;
+            
+        }
+       }
+       button{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(71, 152, 222);
+        color: white ; 
+        margin-left: 600px;
+        margin-top: 40px;
+        border-style: none;
+        font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+              
+                &:hover{
+                    background: rgb(98, 126, 150);
+       
+
+                }
+            }
+        }
+}

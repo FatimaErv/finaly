@@ -55,8 +55,8 @@ function Product() {
           </Link> 
           <div className='product-content'> 
             <h5>{item.title}</h5> 
-            <h6>Бранд</h6> 
-            <h6>Страна</h6> 
+            <h6>Бранд:  {item.brand}</h6> 
+            <h6>Страна: Швейцария</h6> 
             <p>В наличии</p> 
             <div className='price'>
           
@@ -68,7 +68,7 @@ function Product() {
               <div className='icons'> 
  
               <img onClick={()=>dispatch(addWish(item))} className='img1' src={favourite} alt="" /> 
-              <img className='img2' src={rating} alt="" /> 
+              
               </div> 
             </div> 
           </div> 

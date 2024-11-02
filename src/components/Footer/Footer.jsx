@@ -24,7 +24,10 @@ function Footer() {
                     <p>Мы в социальных сетях</p>
                     <div className="logo-img">
                         <img src={wk} alt="" />
+                        <a href="">
+
                         <img src={insta} alt="" />
+                        </a>
                         <img src={fbook} alt="" />
                     </div>
                     <p>Мы принимаем</p>

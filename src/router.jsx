@@ -12,6 +12,7 @@ import Register from './pages/Register'
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import ChekOut from "./pages/ChekOut";
+import Pay from "./pages/Pay";
 
 export const myRouter = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ export const myRouter = createBrowserRouter([
                 path:"check-out",
                 element:<ChekOut/>
             },
+            {
+                path:"pay",
+                element:<Pay/>
+            }
         
         ],
     }

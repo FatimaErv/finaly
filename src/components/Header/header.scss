@@ -160,20 +160,41 @@
              
             display: flex; 
             align-items: center; 
+            justify-content: center;
             gap: 15px; 
+            position: relative;
 
               .count-1 {
-                width: 14px;
-                height: 17px;
-                background-color: rgb(71, 152, 222);
+                position: absolute;
+                top: 0;
+                left: 23px;
+                display: flex;
+                align-items: center; 
+                justify-content: center;
+                width: 15px;
+                height: 15px;
+                font-size: 12px;
+                background-color: red;
                 color: white;
-                text-align: center;
-                font-family: PT Sans; 
+                border-radius: 50%;
+
+             
                 
               }
               .count-2 {
-                width: 10px;
-                height: 10px;
+                top: 0;
+                left: 68px;
+                position: absolute;
+                display: flex;
+                align-items: center; 
+                justify-content: center;
+                width: 15px;
+                height: 15px;
+                font-size: 12px;
+                background-color: red;
+                color: white;
+
+                border-radius: 50%;
               }
              
  

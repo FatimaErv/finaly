@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/image/gidrator.png";
 import user from "../../assets/user.svg";
 import group from "../../assets/group.svg";
@@ -13,6 +13,21 @@ function Header() {
   
   const {items} = useSelector((state)=> state.wishlist)
   const {list} = useSelector((state)=> state.cart)
+
+  const [ searchQuery, setSearchQuery] = useState("")
+  const [searchResult, setSearchResult] = useState(null)
+
+  const handleInputChange = (event) => {
+    setSearchQuery(event.target.value);
+  }
+
+  const handleSearch = () => {
+    console.log(searchQuery);
+    const result = `${searchQuery}`
+  }
+
+
+
   return (
     <div className="header">
       <div className="header-top">
@@ -53,8 +68,8 @@ function Header() {
           <img src={group} alt="" />
           <h4>Каталог товаров</h4>
           <div className="search">
-            <input type="text" placeholder="Поиск товаров и брендов" />
-            <img src={search} alt="" />
+            <input type="text" placeholder="Поиск товаров и брендов" value={searchQuery} onChange={(event)=>setSearchQuery(event.target.value)} />
+            <img onClick={handleSearch} src={search} alt="" />
           </div>
           <div className="text">
             <h5>+996 779 47-70-51</h5>
