@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import logo from "../../assets/image/gidrator.png";
 import user from "../../assets/user.svg";
 import group from "../../assets/group.svg";
@@ -13,6 +13,21 @@ function Header() {
   
   const {items} = useSelector((state)=> state.wishlist)
   const {list} = useSelector((state)=> state.cart)
+
+  // const item = ["Item 1", "Item 2", "Item 3", "Item 4"];
+  
+  // // Состояние для хранения поискового запроса
+  // const [searchTerm, setSearchTerm] = useState("");
+
+  // // Фильтрация элементов по поисковому запросу
+  // const filteredItems = items.filter(item =>
+  //   item.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
+
+  // // Обработчик изменения в input
+  // const handleSearchChange = (event) => {
+  //   setSearchTerm(event.target.value);
+  // };
   return (
     <div className="header">
       <div className="header-top">
@@ -53,8 +68,9 @@ function Header() {
           <img src={group} alt="" />
           <h4>Каталог товаров</h4>
           <div className="search">
-            <input type="text" placeholder="Поиск товаров и брендов" />
+            <input type="text" placeholder="Поиск товаров и брендов"/>
             <img src={search} alt="" />
+           
           </div>
           <div className="text">
             <h5>+996 779 47-70-51</h5>

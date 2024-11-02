@@ -12,11 +12,14 @@ import { addCart } from '../../redux/cart/cartSlice'
  
  
  
+ 
 const API = "https://66fd3da2c3a184a84d199c30.mockapi.io/products" 
  
  
  
 function Product() { 
+
+  
   const[products, setProducts] = useState([]) 
  
   const dispatch = useDispatch() 
@@ -55,7 +58,7 @@ function Product() {
           </Link> 
           <div className='product-content'> 
             <h5>{item.title}</h5> 
-            <h6>Бранд</h6> 
+            <h6>Бранд:  {item.brand}</h6> 
             <h6>Страна</h6> 
             <p>В наличии</p> 
             <div className='price'>
@@ -68,7 +71,7 @@ function Product() {
               <div className='icons'> 
  
               <img onClick={()=>dispatch(addWish(item))} className='img1' src={favourite} alt="" /> 
-              <img className='img2' src={rating} alt="" /> 
+             
               </div> 
             </div> 
           </div> 
