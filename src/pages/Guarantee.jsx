@@ -1,13 +1,16 @@
 import React from 'react'
 import guant from '../assets/image/guant.png'
 import "./Guarantee.scss"
+import { Link } from 'react-router-dom'
 
 function Guarantee() {
   return (
     <div className='obsh'>
         <div className='garanty container'>
             <div className='garanty-1'>
+            <Link to="/">
                 <p>Главная / Гарантии и возврат  </p>
+                </Link>
                 <span>Guarantee</span>
                 <h2>Гарантии и возврат</h2>
                 <div className='btnss'>

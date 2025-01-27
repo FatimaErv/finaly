@@ -3,6 +3,7 @@ import "./Register.scss"
 import { auth } from '../firabase'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { toast } from 'react-toastify'
+import { Link } from 'react-router-dom'
 
 function Register() {
     const [user, setUser] = useState({email:"", password: ""})
@@ -40,9 +41,14 @@ function Register() {
     <div className='reg'>
         <div className='register'>
             <div className='register-top'>
+            <Link to="/">
                 <p>Главная/Регистрация</p>
+                </Link>
+                <div className='regis-text'>
                 <h2>Регистрация</h2>
                 <span>Registration</span>
+
+                </div>
             </div>
             <div className='register-main'>
                 <div className='register-left'>

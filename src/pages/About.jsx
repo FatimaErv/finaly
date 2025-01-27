@@ -30,11 +30,14 @@ import category8 from "../assets/image/category8.png"
 
 
 import "./about.scss"
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
    <div className='about container'>
+    <Link to="/">
       <p>Главная  /  О нас  </p>
+    </Link>
       <div className='about-logo'>
         <h4>О нас</h4>
         <img src={about} alt="" />

@@ -35,7 +35,9 @@ function CartDetail() {
     <div>
       <div className="container">
         <div className="cart-top">
+          <Link to="/">
           <p>Главная / Корзина </p>
+          </Link>
           <h2>Корзина</h2>
         </div>
         <div className="obshiy">

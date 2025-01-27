@@ -1,4 +1,6 @@
 .reg{
+    margin-bottom: 50px;
+
     .register{
         .register-top{
             padding-left: 76px;
@@ -13,9 +15,12 @@
                 letter-spacing: 0%;
                 text-align: left;
             }
+            .regis-text{
+                display: flex;
+                align-items: center;
             h2{
                 position: absolute;
-                margin-top: 60px;
+                margin-top: 20px;
                 color: rgb(21, 36, 79);
                 font-family: PT Sans;
                 font-size: 35px;
@@ -35,7 +40,7 @@
                 line-height: 142px;
                 letter-spacing: 0%;
                 text-align: center;
-            } 
+            } }
         }
         .register-main{
             display: flex;

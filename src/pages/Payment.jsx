@@ -9,6 +9,7 @@ import creditcard from "../assets/svg/credit-card.svg"
 import creditcard1 from "../assets/svg/credit-card2.svg"
 import credit from "../assets/svg/credit.svg"
 import sms from "../assets/svg/sms.svg"
+import { Link } from 'react-router-dom'
 
 
 
@@ -20,8 +21,9 @@ function Payment() {
     <div className='payment container'>
      
         <div className='payment-top'>
-          
+        <Link to="/">
           <h6>Главная  /  Оплата  </h6>
+          </Link>
           <div className='oplata'>
           <h2>Оплата</h2>
           <img  src={payment} alt="" />

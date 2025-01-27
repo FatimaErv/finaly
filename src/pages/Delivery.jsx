@@ -14,6 +14,7 @@ import info2 from "../assets/image/info2.png"
 import info22 from "../assets/image/info22.png"
 import info222 from "../assets/image/info222.png"
 import sms from "../assets/svg/sms.svg"
+import { Link } from 'react-router-dom'
 
 
 
@@ -23,7 +24,9 @@ import sms from "../assets/svg/sms.svg"
 function Delivery() {
   return (
     <div className='delivery container'>
+      <Link to="/">
       <h6>Главная   /  Доставка  </h6>
+      </Link>
       <div className='delivery-logo'>
         <h2>Доставка</h2>
         <img src={delivery} alt="" />

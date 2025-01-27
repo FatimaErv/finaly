@@ -5,7 +5,8 @@ import favourite from "../assets/svg/favourite.svg"
 import line from "../assets/svg/line.svg"
 import { useDispatch, useSelector } from 'react-redux'
 import { removewish } from '../redux/wishlist/wishSlice'
-
+import { addCart } from '../redux/cart/cartSlice'
+import { Link } from 'react-router-dom'
 
 
 function Wishlist() {
@@ -21,7 +22,9 @@ function Wishlist() {
 
   return (
     <div className='wishlist container'>
+         <Link to="/">
       <h6>Главная / Личный кабинет</h6>
+         </Link>
       <h2>Избранные товары</h2>
       <div className='products'>
         <div className='pages'>
@@ -40,7 +43,11 @@ function Wishlist() {
             items?.map((data)=>(
 
         <div key={data.id} className='wish-prod'>
-     <img src={data.image}alt="" />
+           <Link to={`/detailProduct/${data.id}`}> 
+          <img src={data.image}alt="" /> 
+          
+          </Link> 
+   
     <div className='product-content'>
         <h5>{data.title}</h5>
         <p>В наличии</p>
@@ -51,7 +58,7 @@ function Wishlist() {
 
       <img onClick={()=>dispatch(removewish(data.id))} className='img1' src={favourite} alt="" />
 
-      <img   className='img2' src={rating} alt="" />
+   
       </div>
     </div>
   </div>

@@ -5,7 +5,6 @@ import About from "./pages/About"
 import Guarantee from "./pages/Guarantee"
 import Payment from "./pages/Payment"
 import Delivery from "./pages/Delivery";
-import Contact from "./pages/Contact";
 import DetailProduct from "./pages/DetailProduct";
 import Wishlist from "./pages/Wishlist";
 import Register from './pages/Register'
@@ -13,6 +12,7 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import ChekOut from "./pages/ChekOut";
 import Pay from "./pages/Pay";
+import Kross from "./pages/Kross"
 
 export const myRouter = createBrowserRouter([
     {
@@ -39,10 +39,7 @@ export const myRouter = createBrowserRouter([
                 path:"payment",
                 element:<Payment/>
             },
-            {
-                path:"contact",
-                element:<Contact/>
-            },
+           
             {
                 path:"detailProduct/:id",
                 element:<DetailProduct/>
@@ -70,6 +67,10 @@ export const myRouter = createBrowserRouter([
             {
                 path:"pay",
                 element:<Pay/>
+            },
+            {
+                path:"kross",
+                element:<Kross/>
             }
         
         ],

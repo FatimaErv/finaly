@@ -10,6 +10,7 @@ import mir from "../../assets/mir.svg"
 import tel from "../../assets/tel.svg"
 import pochta from "../../assets/pochta.svg"
 import loca from "../../assets/loca.svg"
+import { Link } from "react-router-dom"
 
 
 function Footer() {
@@ -23,11 +24,14 @@ function Footer() {
                     <p>Мы в социальных сетях</p>
                     <div className="logo-img">
                         <img src={wk} alt="" />
-                        <a href="">
+                        <Link to="https://www.instagram.com/">
 
                         <img src={insta} alt="" />
-                        </a>
+                        </Link>
+                        <Link to="https://ru-ru.facebook.com/">
                         <img src={fbook} alt="" />
+                        
+                        </Link>
                     </div>
                     <p>Мы принимаем</p>
                     <div className="visa">

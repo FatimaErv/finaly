@@ -49,9 +49,8 @@ function Header() {
             <li>
               <Link to="/payment">Оплата </Link>
             </li>
-            <li>
-              <Link to="/contact">Контакт</Link>
-            </li>
+            
+           
           </ul>
         </div>
         <div className="sign">

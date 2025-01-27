@@ -25,6 +25,8 @@ function ItemProduct() {
   const [data, setData] = useState({})
   const [image,setImage] = useState("")
   const [title,setTitle] = useState("")
+  const [brand,setBrand] = useState("")
+
   const [price,setPrice] = useState()
 
 
@@ -38,7 +40,8 @@ function ItemProduct() {
       setImage(res.data.image)
       setTitle(res.data.title)
       setPrice(res.data.price)
-
+      setBrand(res.data.brand)
+     
       
       
     } catch (error) {
@@ -79,9 +82,9 @@ function ItemProduct() {
             <div className='about'>
               <h5>Коротко о товаре</h5>
 
-              <p>- Код товара:</p>
-              <p>- Бренд</p>
-              <p>- Страна: </p>
+              <p>- Код товара:  1237479</p>
+              <p>- Бренд:          {brand}</p>
+              <p>- Страна: Швейцария </p>
               <p>- Материал:</p>
               <p>- Габариты:</p>
               <p> - Вид установки:</p>
@@ -91,11 +94,11 @@ function ItemProduct() {
               <h3>{price}$</h3>
              
 
-              {/* <button className='btn1'>В корзину</button> */}
-              <button className='btn1' onClick={() =>dispatch(addCart(list))}>В корзину</button> 
+           
+              <button className='btn1' onClick={() =>dispatch(addCart(data))}>В корзину</button> 
               
               
-              <button className='btn2'>Купить в один клик</button>
+              {/* <button className='btn2'>Купить в один клик</button> */}
               <h6>Товар в наличии</h6>
             </div>
 
