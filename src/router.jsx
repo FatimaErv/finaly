@@ -12,7 +12,6 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import ChekOut from "./pages/ChekOut";
 import Pay from "./pages/Pay";
-import Kross from "./pages/Kross"
 
 export const myRouter = createBrowserRouter([
     {
@@ -68,10 +67,7 @@ export const myRouter = createBrowserRouter([
                 path:"pay",
                 element:<Pay/>
             },
-            {
-                path:"kross",
-                element:<Kross/>
-            }
+            
         
         ],
     }
